@@ -11,6 +11,9 @@ function init() {
 
     if (monnaieD && monnaieD === monnaieA){
       $("#result").html($("#inputMonnaie").val())
+
+    } else if(monnaieD === "CHF" && monnaieD === "CHF"){
+
     } else {
       $("#result").html("error")
     }
